@@ -1,0 +1,48 @@
+.both-sided-slider {
+  position: relative;
+  width: 250px;
+  height: 15px;
+  background: url(bg.png) 50% 50% repeat-x;
+}
+
+.both-sided-slider .left {
+  left: 0px;
+  background: url(left.png) 0px 1px no-repeat;
+}
+
+.both-sided-slider .right {
+  right: 0px;
+  background: url(right.png) 0px 1px no-repeat;
+}
+
+.both-sided-slider .left, .both-sided-slider .right {
+  height: 12px;
+  width: 2px;
+  position: absolute;
+  top: 0px;
+}
+
+.both-sided-slider .slider-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background: url(arrow.png);
+}
+
+.dates {
+	font-size: x-small;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.view-all-result {
+	width: 250px;
+	height: 100px;
+	overflow: auto;
+	padding: 10px;
+}
+
+.year-month-select {
+    font-family: "Times New Roman", Times, serif;
+}
